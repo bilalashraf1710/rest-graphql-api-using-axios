@@ -1,0 +1,40 @@
+.root {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.postFeed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+}
+
+.post {
+    width: 100%;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 10px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+button {
+    border-width: 2px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    width: max-content;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
